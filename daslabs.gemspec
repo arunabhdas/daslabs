@@ -30,13 +30,15 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-    # Declare that the Gem is compatible with
+  # Declare that the Gem is compatible with
   # version 2.0 or greater
   spec.required_ruby_version = ">= 2.0"
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_runtime_dependency "nokogiri", ">= 1.5.0"
 
+  # Usage: spec.add_runtime_dependency "[gem name]", [[version]]
+  spec.add_runtime_dependency "nokogiri", ">= 1.5.0"
+  spec.add_runtime_dependency "activesupport", [">= 4.0"]
 
 end
