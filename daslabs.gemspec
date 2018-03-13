@@ -39,6 +39,5 @@ Gem::Specification.new do |spec|
 
   # Usage: spec.add_runtime_dependency "[gem name]", [[version]]
   spec.add_runtime_dependency "nokogiri", ">= 1.5.0"
-  spec.add_runtime_dependency "activesupport", [">= 4.0"]
 
 end
