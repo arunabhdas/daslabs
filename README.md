@@ -19,7 +19,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+==> gem install daslabs
+Successfully installed daslabs-0.5.0
+1 gem installed
+
+==> gem list -r daslabs
+
+*** REMOTE GEMS ***
+
+daslabs (0.5.0)
+
+==> irb
+irb(main):001:0> require 'daslabs'
+=> true
+
+
+irb(main):007:0> DasLabs.hi("Hello")
+=> nil
+irb(main):008:0> quit()
+
+
+The xml file should be in your pwd folder as output.html
 
 ## Development
 
@@ -38,3 +58,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Daslabs project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/daslabs/blob/master/CODE_OF_CONDUCT.md).
+
+# Helpful Links
+
+http://guides.rubygems.org/make-your-own-gem/
