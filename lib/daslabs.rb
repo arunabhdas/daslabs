@@ -3,9 +3,15 @@ require "daslabs/version"
 require "daslabs/baseband"
 
 module DasLabs
-  def self.hi(n = "Default Name")
-    puts "Writing output.html to : #{Dir.pwd}"
+  def self.generate_html(n = "Default Name")
+    
     baseband = Baseband
-    Baseband.name(n)
+    Baseband.generate_html(n)
+  end
+
+  def self.generate_android_xml(n = "Default Name")
+    
+    baseband = Baseband
+    Baseband.generate_android_xml(n)
   end
 end

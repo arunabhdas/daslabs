@@ -73,9 +73,12 @@ Update VERSION in version.rb
 
 ==> gem build daslabs.gemspec
 
-==> gem push daslabs-0.6.0.gem
+==> gem push daslabs-0.x.0.gem
 
 
 # Check version
 
 gem list
+
+
+==> bundler console

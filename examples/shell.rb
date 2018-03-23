@@ -36,7 +36,8 @@ io = HighLine.new
 shell = ShellUI.new
 console = CLI::Console.new(io)
 puts "Current directory: #{Dir.pwd}"
-DasLabs.hi("Welcome to DasLabs")
+daslabs = DasLabs.new
+daslabs.generate_android_xml("Welcome to DasLabs")
 console.addCommand('ls', shell.method(:ls), 'List files')
 console.addCommand('pwd', shell.method(:pwd), 'Current directory')
 console.addCommand('cd', shell.method(:cd), 'Change directory')
