@@ -62,3 +62,14 @@ Everyone interacting in the Daslabs project’s codebases, issue trackers, chat 
 # Helpful Links
 
 http://guides.rubygems.org/make-your-own-gem/
+
+# Publishing
+
+Update VERSION in version.rb
+
+gem push daslabs-0.6.0.gem
+
+
+# Check version
+
+gem list

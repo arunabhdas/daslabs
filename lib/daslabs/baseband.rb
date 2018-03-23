@@ -4,6 +4,7 @@ require 'nokogiri'
 
 class Baseband
   def self.name(n = "Baseband")
+    puts "Writing output.html to : #{Dir.pwd}"
     doc = Nokogiri::HTML <<-EOHTML
      <html>
      <body>
