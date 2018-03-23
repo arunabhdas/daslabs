@@ -63,11 +63,17 @@ Everyone interacting in the Daslabs project’s codebases, issue trackers, chat 
 
 http://guides.rubygems.org/make-your-own-gem/
 
+https://www.digitalocean.com/community/tutorials/how-to-package-and-distribute-ruby-applications-as-a-gem-using-rubygems
+
 # Publishing
+
+Make updates to gem
 
 Update VERSION in version.rb
 
-gem push daslabs-0.6.0.gem
+==> gem build daslabs.gemspec
+
+==> gem push daslabs-0.6.0.gem
 
 
 # Check version
