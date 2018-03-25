@@ -25,7 +25,9 @@ Successfully installed daslabs-0.5.0
 
 ==> gem list -r daslabs
 
+==> cd examples
 
+==> ruby interactive.rb
 
 *** REMOTE GEMS ***
 
