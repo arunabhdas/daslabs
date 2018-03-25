@@ -25,6 +25,8 @@ Successfully installed daslabs-0.5.0
 
 ==> gem list -r daslabs
 
+
+
 *** REMOTE GEMS ***
 
 daslabs (0.5.0)
@@ -80,5 +82,6 @@ Update VERSION in version.rb
 
 gem list
 
+# Debug and dev
 
 ==> bundler console

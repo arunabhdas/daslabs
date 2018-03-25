@@ -1,17 +1,23 @@
-
 require "daslabs/version"
 require "daslabs/baseband"
 
 module DasLabs
-  def self.generate_html(n = "Default Name")
+  def self.bootstrapweb(n = "DefaultName")
     
     baseband = Baseband
-    Baseband.generate_html(n)
+    Baseband.bootstrapweb(n)
   end
 
-  def self.generate_android_xml(n = "Default Name")
+  def self.bootstrapandroid(n = "DefaultName")
     
     baseband = Baseband
-    Baseband.generate_android_xml(n)
+    Baseband.bootstrapandroid(n)
+  end
+
+
+  def self.bootstrapios(n = "DefaultName")
+    
+    baseband = Baseband
+    Baseband.bootstrapios(n)
   end
 end

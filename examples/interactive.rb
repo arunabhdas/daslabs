@@ -8,7 +8,7 @@ prompt.ask('Where shall we scaffold the Android app?', default: ENV['PWD'])
 prompt.yes?('Would you like to populate the app with sample data?')
 
 
-choices = %w(tabs sidemenu blank)
+choices = %w(web android ios)
 prompt.multi_select("What type of template would you like?", choices)
 
-DasLabs.generate_android_xml("Mozart")
+DasLabs.bootstrapios("----------%w")

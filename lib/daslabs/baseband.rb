@@ -3,7 +3,7 @@ require 'nokogiri'
 
 
 class Baseband
-  def self.generate_html(n = "Baseband")
+  def self.bootstrapweb(n = "Baseband")
     puts "Writing output.html to : #{Dir.pwd}"
     doc = Nokogiri::HTML <<-EOHTML
      <html>
@@ -27,10 +27,10 @@ class Baseband
       outfile.close
   end
 
-  def self.generate_android_xml(n = "Baseband")
+  def self.bootstrapandroid(n = "Baseband")
     puts "Writing output.xml to : #{Dir.pwd}"
     doc = Nokogiri::HTML <<-EOHTML
-     <xml>
+    <?xml version="1.0" encoding="utf-8"?>
      <body>
         <item>
           <time>05.04.2011 9:53:23</time>
@@ -50,5 +50,10 @@ class Baseband
       outfile.puts doc.to_html
       outfile.close
   end
+
+  def self.bootstrapios(n = "Baseband")
+    puts "Writing ios project to : #{Dir.pwd}"
+  end
+
 end
 
