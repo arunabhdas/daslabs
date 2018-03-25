@@ -52,7 +52,7 @@ class Baseband
   end
 
   def self.bootstrapios(n = "Baseband")
-    puts "Writing ios project to : #{Dir.pwd}"
+    puts "Writing ios project to : ", n
   end
 
 end

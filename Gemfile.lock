@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    daslabs (0.8.0)
+    daslabs (0.9.0)
       nokogiri (>= 1.5.0)
 
 GEM

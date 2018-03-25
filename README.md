@@ -80,7 +80,11 @@ Update VERSION in version.rb
 
 # Check version
 
-gem list
+==> gem list
+
+or
+
+==> gem list -r daslabs
 
 # Debug and dev
 
