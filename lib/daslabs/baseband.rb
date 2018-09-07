@@ -55,5 +55,9 @@ class Baseband
     puts "Writing ios project to : ", n
   end
 
+  def self.usage
+    puts "Usage is as follows | bootstrapweb | bootstrapandroid | bootstrapios |"
+  end
+
 end
 
