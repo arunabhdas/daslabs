@@ -1,3 +1,3 @@
-module Daslabs
-  VERSION = "0.17.0"
+module DasLabs
+  VERSION = "0.18.0"
 end
