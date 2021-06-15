@@ -5,7 +5,7 @@ require "daslabs/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "daslabs"
-  spec.version       = Daslabs::VERSION
+  spec.version       = DasLabs::VERSION
   spec.authors       = ["Arunabh Das"]
   spec.email         = ["arunabhdas@gmail.com"]
 
@@ -36,7 +36,7 @@ Gem::Specification.new do |spec|
   # version 2.0 or greater
   spec.required_ruby_version = ">= 2.0"
 
-  spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 10.0"
 
   # Usage: spec.add_runtime_dependency "[gem name]", [[version]]

@@ -1,9 +1,9 @@
 require "daslabs/version"
 require "daslabs/baseband"
 
-module Daslabs
+module DasLabs
 
-  class DaslabsCentral
+  class DasLabsCentral
     def self.bootstrapweb(n = "DefaultName")
     
       baseband = Baseband
