@@ -2,21 +2,21 @@ GEM
   remote: https://rubygems.org/
   specs:
     cli-console (0.1.4)
-    daslabs (0.15.0)
+    daslabs (0.18.0)
       nokogiri (>= 1.5.0)
     highline (1.7.10)
-    mini_portile2 (2.5.3)
-    nokogiri (1.11.7)
-      mini_portile2 (~> 2.5.0)
+    mini_portile2 (2.8.0)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    racc (1.5.2)
+    racc (1.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   cli-console (~> 0.1.4)
-  daslabs (~> 0.15.0)
+  daslabs (~> 0.18.0)
   highline (~> 1.7, >= 1.7.8)
 
 BUNDLED WITH
